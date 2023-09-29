@@ -1,0 +1,55 @@
+.uaegroup {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.uaegroup .uaephotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.uaegroup .uaephotos .firstuaephoto {
+  background-image: url(../images/firstuaephoto.png);
+  width: 298px;
+  height: 347px;
+}
+.uaegroup .uaephotos2 .seconduaephoto {
+  background-image: url(../images/seconduaephoto.png);
+  width: 298px;
+  height: 347px;
+}
+.uaegroup .uaephotos3 .thirduaephoto {
+  background-image: url(../images/thirduaephoto.png);
+  width: 298px;
+  height: 347px;
+}
+
+@media only screen and (max-width: 800px) {
+  .uaegroup {
+    width: 527px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .uaegroup .firstuaephoto {
+    margin-bottom: 20px;
+  }
+  .uaegroup .seconduaephoto {
+    margin-bottom: 20px;
+  }
+}

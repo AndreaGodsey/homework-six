@@ -1,0 +1,55 @@
+.canadagroup {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.canadagroup .canadaphotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.canadagroup .canadaphotos .firstcanadaphoto {
+  background-image: url(../images/firstcanadaphoto.png);
+  width: 298px;
+  height: 347px;
+}
+.canadagroup .canadaphotos2 .secondcanadaphoto {
+  background-image: url(../images/secondcanadaphoto.png);
+  width: 298px;
+  height: 347px;
+}
+.canadagroup .canadaphotos3 .thirdfrancephoto {
+  background-image: url(../images/thirdcanadaphoto.png);
+  width: 298px;
+  height: 347px;
+}
+
+@media only screen and (max-width: 800px) {
+  .canadagroup {
+    width: 527px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .canadagroup .firstcanadaphoto {
+    margin-bottom: 20px;
+  }
+  .canadagroup .secondcanadaphoto {
+    margin-bottom: 20px;
+  }
+}

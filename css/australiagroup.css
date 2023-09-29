@@ -1,0 +1,55 @@
+.australiagroup {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.australiagroup .australiaphotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.australiagroup .australiaphotos .firstaustraliaphoto {
+  background-image: url(../images/firstisraelphoto.png);
+  width: 298px;
+  height: 347px;
+}
+.australiagroup .australiaphotos2 .secondaustraliaphoto {
+  background-image: url(../images/secondisraelphoto.png);
+  width: 298px;
+  height: 347px;
+}
+.australiagroup .australiaphotos3 .thirdaustraliaphoto {
+  background-image: url(../images/thirdisraelphoto.png);
+  width: 298px;
+  height: 347px;
+}
+
+@media only screen and (max-width: 800px) {
+  .australiagroup {
+    width: 527px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .australiagroup .firstaustraliaphoto {
+    margin-bottom: 20px;
+  }
+  .australiagroup .secondaustraliaphoto {
+    margin-bottom: 20px;
+  }
+}
